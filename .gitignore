@@ -1,1 +1,4 @@
 /node_modules
+/build
+/mix-manifest.json
+/mix.js
