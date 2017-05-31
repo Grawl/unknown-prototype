@@ -1,0 +1,11 @@
+hr.vertical {
+	display: inline-block;
+	width: 0;
+	height: 100%;
+	margin: 0;
+	line-height: 1;
+	border-right: 1px solid hsl(0, 0%, 90%);
+}
+.button.only {
+	margin-bottom: 0;
+}

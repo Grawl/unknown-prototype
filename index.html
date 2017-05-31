@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Prototype</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="node_modules/foundation-sites/dist/css/foundation-flex.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+		<ul class="tabs" data-tabs id="example-tabs" data-deep-link="true">
+			<li class="tabs-title">
+				<a href="#panel-sh99">
+					<img src="https://png.icons8.com/recycling symbol/color/30"> Ш99
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-sh14">
+					<img src="https://png.icons8.com/recycling symbol/color/30"> Ш14
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-d_sh104">
+					<img src="https://png.icons8.com/checkmark/color/30"> D_Ш104
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-ssd">
+					<img src="https://png.icons8.com/high priority/color/30"> ССД
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-sh1">
+					<img src="https://png.icons8.com/checkmark/color/30"> Ш1
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-sh2">
+					<img src="https://png.icons8.com/recycling symbol/color/30"> Ш2
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-sh3">
+					<img src="https://png.icons8.com/recycling symbol/color/30"> Ш3
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-sh6">
+					<img src="https://png.icons8.com/recycling symbol/color/30"> Ш6
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-sh7">
+					<img src="https://png.icons8.com/recycling symbol/color/30"> Ш7
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-sh8">
+					<img src="https://png.icons8.com/checkmark/color/30"> Ш8
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-sh9">
+					<img src="https://png.icons8.com/checkmark/color/30"> Ш9
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-10-11">
+					<img src="https://png.icons8.com/recycling symbol/color/30"> 10-11
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-sh12">
+					<img src="https://png.icons8.com/recycling symbol/color/30"> Ш12
+				</a>
+			</li>
+			<li class="tabs-title is-active">
+				<a href="#panel-sh13">
+					<img src="https://png.icons8.com/high priority/color/30"> Ш13
+				</a>
+			</li>
+			<li class="tabs-title">
+				<a href="#panel-d_sh105">
+					<img src="https://png.icons8.com/recycling symbol/color/30"> D_Ш105
+				</a>
+			</li>
+		</ul>
+		<div class="tabs-content" data-tabs-content="example-tabs">
+			<div class="tabs-panel" id="panel-sh99">
+				<p>Ш99</p>
+			</div>
+			<div class="tabs-panel" id="panel-sh14">
+				<p>Ш14</p>
+			</div>
+			<div class="tabs-panel" id="panel-d_sh104">
+				<p>D_Ш104</p>
+			</div>
+			<div class="tabs-panel" id="panel-ssd">
+				<p>ССД</p>
+			</div>
+			<div class="tabs-panel" id="panel-sh1">
+				<p>Ш1</p>
+			</div>
+			<div class="tabs-panel" id="panel-sh2">
+				<p>Ш2</p>
+			</div>
+			<div class="tabs-panel" id="panel-sh3">
+				<p>Ш3</p>
+			</div>
+			<div class="tabs-panel" id="panel-sh6">
+				<p>Ш6</p>
+			</div>
+			<div class="tabs-panel" id="panel-sh7">
+				<p>Ш7</p>
+			</div>
+			<div class="tabs-panel" id="panel-sh8">
+				<p>Ш8</p>
+			</div>
+			<div class="tabs-panel" id="panel-sh9">
+				<p>Ш9</p>
+			</div>
+			<div class="tabs-panel" id="panel-10-11">
+				<p>10-11</p>
+			</div>
+			<div class="tabs-panel" id="panel-sh12">
+				<p>Ш12</p>
+			</div>
+			<div class="tabs-panel is-active" id="panel-sh13">
+				<table class="unstriped">
+					<thead>
+						<tr>
+							<th></th>
+							<th>Вид затрат календарного времени</th>
+							<th>Затраченное время (ч)</th>
+							<th>
+								<button type="button" class="button only default">Не трогать</button>
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<input type="number">
+							</td>
+							<td>
+								<select>
+									<option>PMPT0</option>
+									<option>PMPT1</option>
+									<option>PMPT2</option>
+									<option>PMPT5</option>
+								</select>
+							</td>
+							<td>
+								<input type="number">
+							</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="2">
+								<div class="row">
+									<div class="shrink column">
+										<label for="trailing-sh7" class="middle">Траление Ш7</label>
+									</div>
+									<div class="shrink column">
+										<input id="trailing-sh7" type="number" disabled>
+									</div>
+								</div>
+							</td>
+							<td>
+								<input type="number" disabled value=240>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+				<aside class="expanded row">
+					<div class="shrink column">
+						<button class="button only small" type="button" data-toggle="example-dropdown2">Загрузить Входящие</button>
+						<div class="dropdown-pane top" id="example-dropdown2" data-dropdown>
+							<ul class="menu vertical">
+								<li><a href="#">Сейчас</a></li>
+								<li><a href="#">Ночью</a></li>
+								<li><a href="#">На выходных</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="shrink column">
+						<button type="button" class="button only hollow small">Следующая</button>
+					</div>
+					<div class="shrink column">
+						<button type="button" class="button only hollow small">Пропустить</button>
+					</div>
+					<div class="shrink column">
+						<button type="button" class="button only hollow small">Удалить</button>
+					</div>
+					<div class="shrink column">
+						<button type="button" class="button only hollow small" disabled>Вернуть</button>
+					</div>
+					<div class="shrink column">
+						<hr class="vertical">
+					</div>
+					<div class="shrink column">
+						<button type="button" class="button only hollow small">Автоматически</button>
+					</div>
+					<div class="shrink column">
+						<button type="button" class="button only hollow small">До следующей ошибки</button>
+					</div>
+					<div class="shrink column">
+						<hr class="vertical">
+					</div>
+					<div class="shrink column">
+						<button type="button" class="button only hollow small">Записать</button>
+					</div>
+				</aside>
+				<aside>
+					<fieldset class="fieldset">
+						<div class="expanded row">
+							<div class="column">
+								<div class="expanded row">
+									<div class="column">
+										<input id="rewrite-ssd-in-db" type="checkbox">
+										<label for="rewrite-ssd-in-db">Перезаписывать ССД в БД</label>
+									</div>
+									<div class="column">
+										<input id="write-to-db-with-errors" type="checkbox">
+										<label for="write-to-db-with-errors">Писать в БД даже с ошибками</label>
+									</div>
+								</div>
+								<div class="expanded row">
+									<div class="shrink column">
+										<button type="button" class="button small hollow">Принадлежность судна</button>
+									</div>
+									<div class="shrink column">
+										<button type="button" class="button small hollow">Отослать ошибочное ССД судов</button>
+									</div>
+								</div>
+							</div>
+							<div class="small-4 columns align-self-right">
+								<div class="row">
+									<div class="small-3 columns">
+										<label for="ssd-for-date" class="middle">ССД за</label>
+									</div>
+									<div class="small-9 columns">
+										<input id="ssd-for-date" type="date">
+									</div>
+								</div>
+								<div class="row">
+									<div class="small-3 columns">
+										<label for="ssd-for-ship-name" class="middle">По судну</label>
+									</div>
+									<div class="small-9 columns">
+										<input id="ssd-for-ship-name" type="text">
+									</div>
+								</div>
+							</div>
+						</div>
+					</fieldset>
+				</aside>
+			</div>
+			<div class="tabs-panel" id="panel-d_sh105">
+				<p>D_Ш105</p>
+			</div>
+		</div>
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/what-input/dist/what-input.js"></script>
+        <script src="node_modules/foundation-sites/dist/js/foundation.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
